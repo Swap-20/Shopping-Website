@@ -1,19 +1,21 @@
 *{
-    margin:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #fff;
+    background-color: #3c096c;
+    color:white;
 }
-nav{
-    border-radius : 5px;
-    padding-right: 35px;
-    border:10px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 5px 30px 0 rgba(22, 32, 220, 0.37);
-    backdrop-filter: blur(30px);
+.nav_logo{
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    padding:  10px 5px;
 }
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    border : 
+.nav_search{
+    padding: 5px 5px;
+    border-radius: 10px;
+    border-color: white;
+    margin-right: 10px;
+    
 }
